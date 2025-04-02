@@ -53,8 +53,8 @@ body {
     color: #fff;
 
 }
-.input-box input:focus~label,
-.input-box input:valid~label {
+.input-box input:focus~::placeholder,
+.input-box input:valid~::placeholder {
     top: -5px;
 
 }
